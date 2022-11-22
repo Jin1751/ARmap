@@ -71,4 +71,4 @@
 
 ## 작동 영상
 
-<div align="center"><a href="https://youtu.be/4WG4LSW3Wmk"><a><img src = "https://user-images.githubusercontent.com/85219721/203328179-0fa3ae71-78b6-4b00-8750-11ce6a58b094.jpg" width = "600" height = "350"/></div>
+<div align="center"><a href="https://youtu.be/4WG4LSW3Wmk"><img src = "https://user-images.githubusercontent.com/85219721/203328179-0fa3ae71-78b6-4b00-8750-11ce6a58b094.jpg" width = "600" height = "350"/></div>
