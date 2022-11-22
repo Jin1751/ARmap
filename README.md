@@ -47,7 +47,13 @@
 
 ## 2D 지도 작동 화면
 
-<div align="center"><img src = "https://user-images.githubusercontent.com/85219721/203324261-73481a6d-58ed-4896-b43b-5d471286f2d1.JPG" width = "900" height = "400"/></div>
+- **현재위치->도착지(선택)**
+
+<div align="center"><img src = "https://user-images.githubusercontent.com/85219721/203324261-73481a6d-58ed-4896-b43b-5d471286f2d1.JPG" width = "900" height = "400"/></div><br>
+
+- **출발지(선택)->도착지(선택)**
+
+<div align="center"><img src = "https://user-images.githubusercontent.com/85219721/203332022-dc55f3c2-1a44-4052-aa4d-a34440f98b3f.JPG" width = "900" height = "400"/></div>
 
 ---
 
