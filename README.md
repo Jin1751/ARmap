@@ -71,6 +71,4 @@
 
 ## 작동 영상
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4WG4LSW3Wmk" frameborder="0" allowfullscreen></iframe>
- 
- {% include 파일명.html id="유튜브동영상url" %}  
+<div align="center"><a href="https://youtu.be/4WG4LSW3Wmk"><a><img src = "https://user-images.githubusercontent.com/85219721/203328179-0fa3ae71-78b6-4b00-8750-11ce6a58b094.jpg" width = "600" height = "350"/></div>
