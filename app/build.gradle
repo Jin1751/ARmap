@@ -2,6 +2,9 @@ plugins {
     id 'com.android.application'
 }
 
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
 android {
     compileSdk 32
 
@@ -17,6 +20,8 @@ android {
         ndk{
             abiFilters 'armeabi-v7a', 'arm64-v8a','x86'
         }
+
+        buildConfigField "String", "TMap_api_key", properties['tmap_api_key']
     }
 
     buildTypes {

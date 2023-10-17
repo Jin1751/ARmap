@@ -77,7 +77,7 @@ public class StartNavi extends AppCompatActivity implements SensorEventListener,
         cLocationBtn = (Button) findViewById(R.id.btnCLocation);
         slide = (SlidingUpPanelLayout) findViewById(R.id.slide);
         tMapView = new TMapView(this);
-        tMapView.setSKTMapApiKey("T MAP API KEY HERE");
+        tMapView.setSKTMapApiKey(BuildConfig.TMap_api_key);
         linearLayoutTmap.addView(tMapView);
         r_pin = BitmapFactory.decodeResource(this.getResources(), R.drawable.r_pin);
         b_pin = BitmapFactory.decodeResource(this.getResources(), R.drawable.b_pin);
