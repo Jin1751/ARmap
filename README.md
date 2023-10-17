@@ -13,7 +13,7 @@
 
 *Developers who want to use AR Fuctions, Please activate personal AR Core API & Geospatial API as Keyless way on Unity*
 - - -
-*2023.10.17 : 코드 보안 이슈로 사용 중단됐던 지도 기능이 수정됐습니다. AR 기능은 현재 수 중입니다.*
+*2023.10.17 : 코드 보안 이슈로 사용 중단됐던 지도 기능이 수정됐습니다. AR 기능은 현재 수정 중 입니다.*
 - - -
 *2023.10.17 : Map Function fixed. AR Feature is currently being fixed*
 - - -
