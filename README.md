@@ -6,7 +6,7 @@
 *지도기능 사용을 원하는 사용자는 TMap API 키를 발급받아 코드에 넣어서 사용하시기 바랍니다.*
 
 *AR 기능 사용을 원하는 사용자분들은 개인 ARCore API 키와 Geospatial API 키를 Keyless 방식으로 유니티에서 활성화 후 사용하시기 바랍니다.*
-- - -
+
 *2023.06.01: This Unity Project's AR Feature and Map Function is temporary banned due to security issue. It will be fixed later.*
 
 *Developers who want to use Map Fuctions, Please activate personal T Map API Key and put it to codes.*
@@ -14,9 +14,14 @@
 *Developers who want to use AR Fuctions, Please activate personal AR Core API & Geospatial API as Keyless way on Unity*
 - - -
 *2023.10.17 : 코드 보안 이슈로 사용 중단됐던 지도 기능이 수정됐습니다. AR 기능은 현재 수정 중 입니다.*
+
+*2023.10.17 : Map Feature is now fixed. AR Feature is currently fixing*
 - - -
-*2023.10.17 : Map Feature is now fixed. AR Feature is currently being fixed*
+*2023.12.03 : 코드 보안 이슈 작업이 완료됐습니다. 기능을 정상적으로 사용가능합니다.*
+
+*2023.12.03 : Security issue has been fixed. All functions works properly.*
 - - -
+
 - 앱 이름: **어그(ARG)**
 
 - 앱 설명: 사용자에게 증강현실(AR) 안내판으로 목적지까지의 진행방향을 알려주는 앱
