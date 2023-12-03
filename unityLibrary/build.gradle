@@ -4,24 +4,27 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation(name: 'arcore_client', ext:'aar')
-
     implementation(name: 'UnityARCore', ext:'aar')
     implementation(name: 'com.google.android.gms.play-services-base-16.0.1', ext:'aar')
-
     implementation(name: 'com.google.android.gms.play-services-places-placereport-16.0.0', ext:'aar')
     implementation(name: 'com.google.android.gms.play-services-location-16.0.0', ext:'aar')
-
     implementation(name: 'com.google.android.gms.play-services-tasks-16.0.1', ext:'aar')
     implementation(name: 'com.google.android.gms.play-services-basement-16.0.1', ext:'aar')
     implementation(name: 'ARPresto', ext:'aar')
     implementation(name: 'unityandroidpermissions', ext:'aar')
+    //implementation(name: 'android.arch.lifecycle.runtime-1.0.0', ext:'aar')
 
+    //implementation(name: 'com.android.support.support-core-ui-26.1.0', ext:'aar')
+    //implementation(name: 'com.android.support.support-fragment-26.1.0', ext:'aar')
+    //implementation(name: 'com.android.support.support-core-utils-26.1.0', ext:'aar')
+    //implementation(name: 'com.android.support.support-media-compat-26.1.0', ext:'aar')
+
+    //implementation(name: 'com.android.support.support-compat-26.1.0', ext:'aar')
 
 }
 
 android {
-    compileSdkVersion 32
-    buildToolsVersion '30.0.3'
+    compileSdk 32
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -103,11 +106,7 @@ android {
         if (project(':unityLibrary').tasks.findByName('mergeReleaseJniLibFolders'))
             project(':unityLibrary').mergeReleaseJniLibFolders.dependsOn BuildIl2CppTask
     }
-    sourceSets {
-        main {
-            jni.srcDirs = ["src/main/Il2CppOutputProject"]
-        }
-    }
+    namespace 'com.unity3d.player'
 }
 
 
