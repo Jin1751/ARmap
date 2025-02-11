@@ -46,7 +46,7 @@
 - 안드로이드 스튜디오 <img src="http://is.am/58sc"/>
 <div align="center"> <img src = "https://user-images.githubusercontent.com/85219721/203321697-4992308b-05ed-4ed2-bb0d-c400ae73eb50.png" width = "250" height = "150"/></div>
 
-- 유니티 <img src = "https://img.shields.io/badge/C%20Sharp-239120?style=flat-square&logo=Csharp&logoColor=white"/>
+- 유니티 (2021.3.8f1) <img src = "https://img.shields.io/badge/C%20Sharp-239120?style=flat-square&logo=Csharp&logoColor=white"/>
 <div align="center"><img src = "https://user-images.githubusercontent.com/85219721/203322154-d1adb92c-4ba0-47bd-950e-36dc20d5e9f6.jpg" width = "200" height = "100"/></div>
 
 ---
